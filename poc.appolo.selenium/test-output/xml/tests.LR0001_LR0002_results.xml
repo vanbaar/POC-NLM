@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ie Test LR0001_LR0002"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11,701">
+  <properties />
+  
+  
+            <testcase name="LR0001_LR0002TEST" time="11,701" classname="tests.LR0001_LR0002" />
+      
+</testsuite>

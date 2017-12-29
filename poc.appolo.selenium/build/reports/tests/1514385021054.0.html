@@ -1,0 +1,67 @@
+<html><head lang="en"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title class="ng-scope" translate="LABELS.TITLE">Apollo-lonen</title>
+
+    <link href="style/css/apollo-lonen.css" rel="stylesheet" type="text/css">
+
+<style type="text/css"></style></head>
+
+<body>
+
+    <!-- uiView: --><div class="ng-scope" ui-view=""><header class="ecl-main-header ng-scope">
+    <div class="ecl-main-header__content">
+        <a href="#/" ui-sref="base.home">
+            <img class="ecl-main-header__logo" src="assets/images/general/acerta-logo.svg">
+        </a>
+        <h2 class="ecl-main-header__page-title ng-scope" translate="LABELS.HEADER">Apollo-lonen</h2>
+    </div>
+
+    <div class="ecl-main-header__nav-wrapper">
+        <nav class="ecl-main-header__nav__item ecl-main-header__nav ecl-main-header__nav--lang">
+            <button class="ecl-main-header__nav__toggle">
+                <span class="ecl-main-header__nav__toggle__title active" ng-class="{'active': baseCtrl.$localStorage.language==='nl'}" ng-click="baseCtrl.changeLanguage('nl')">NL</span>
+                |
+                <span class="ecl-main-header__nav__toggle__title" ng-class="{'active': baseCtrl.$localStorage.language==='fr'}" ng-click="baseCtrl.changeLanguage('fr')">FR</span>
+            </button>
+        </nav>
+        <a class="ecl-main-header__nav__item ng-scope" href="#" translate="LABELS.HELP">Help</a>
+        <nav class="ecl-main-header__nav__item ecl-main-header__nav ecl-main-header__nav--account">
+            <button class="ecl-main-header__nav__toggle">
+                <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                <span class="ecl-main-header__nav__toggle__title ng-binding">Arne Van.Bavel</span>
+            </button>
+            <div class="ecl-main-header__nav__toggle-item" id="my-account">
+                <div class="ecl-main-header__nav__toggle-item__content">
+                    <a class="ecl-main-header__nav__toggle-item__content__item ng-scope" href="https://t-clientaccess.acerta.be/pkmslogout" translate="lbl_logout">lbl_logout</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="ng-scope">
+    <div class="ng-scope" spinner-theme="data-fixed" spinner-key="loading-data" enigma-spinner=""></div>
+</div>
+
+<div class="error-messages-backend ng-scope">
+    <div class="ng-scope" enigma-messages=""><!-- ngIf: messagesService.show --><div class="ecl-alert alert-dismissible ng-scope" role="alert" ng-if="messagesService.show"><!-- ngIf: messagesService.getMessages('success') != null && messagesService.getMessages('success').length > 0 --><!-- ngIf: messagesService.getMessages('info') != null && messagesService.getMessages('info').length > 0 --><!-- ngIf: messagesService.getMessages('warning') != null && messagesService.getMessages('warning').length > 0 --><!-- ngIf: messagesService.getMessages('error') != null && messagesService.getMessages('error').length > 0 --><!-- ngIf: messagesService.getMessages('technical') != null && messagesService.getMessages('technical').length > 0 --></div><!-- end ngIf: messagesService.show --></div>
+</div>
+
+<div class="ng-scope" enigma-session-manager-warning-time="1500000" enigma-session-manager-session-time="1800000" enigma-session-manager=""></div>
+
+<div class="ng-scope ng-isolate-scope" enigma-alert-text-ok="Verleng uw sessie" enigma-alert="baseCtrl.warningTimeReached"><!-- ngIf: handle.visible --></div>
+
+<div class="ng-scope ng-isolate-scope" enigma-alert-text-ok="Ik begin opnieuw" enigma-alert="baseCtrl.timeoutReached"><!-- ngIf: handle.visible --></div>
+
+<main class="ecl-content ng-scope" role="main">
+    <!-- uiView: --><div class="ng-scope" ui-view=""><div class="ecl-lightgray-div ng-scope"><section class="ecl-section"><div class="row ecl-first-row"><div class="col-sm-6 col-md-4"><div class="thumbnail"><div class="caption"><h3>Todo's</h3><p>Om naar het scherm van de todo's te gaan</p><p><a class="btn btn-default" role="button" href="#/todos" ui-sref="base.todos">Ga naar Todo's</a></p></div></div></div><div class="col-sm-6 col-md-4"><div class="thumbnail"><div class="caption"><h3>Detailviewer loonresultaten</h3><p>Om naar het scherm van de 'Detailviewer loonresultaten' te gaan</p><p><a class="btn btn-default" role="button" href="#/wages" ui-sref="base.wages">Ga naar Detailviewer loonresultaten</a></p></div></div></div></div></section></div></div>
+</main>
+</div>
+
+
+    <script src="../env/env.js"></script>
+
+<script src="vendor.027622.js" type="text/javascript"></script><script src="app.84aca2.js" type="text/javascript"></script>
+</body></html>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrome Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="6,620">
+  <properties />
+            <testcase name="DV0002TEST" time="6,620" classname="tests.DV0002">
+                <failure type="com.codeborne.selenide.ex.ElementShould"
+                  message="Element should have text &apos;49916&apos; {By.xpath: .//select[@id=&apos;contractNumber_select&apos;]/option[@label][1]}
+Element: &apos;&lt;option label=&quot;49917&quot; value=&quot;string:49917&quot;&gt;49917&lt;/option&gt;&apos;"
+              >
+<![CDATA[Element should have text '49916' {By.xpath: .//select[@id='contractNumber_select']/option[@label][1]}
+Element: '<option label="49917" value="string:49917">49917</option>'
+Screenshot: file:/C:/Users/vanbaar/Documents/bignited/Acerta/poc.appolo.selenium/build/reports/tests/1514464845712.0.png
+Page source: file:/C:/Users/vanbaar/Documents/bignited/Acerta/poc.appolo.selenium/build/reports/tests/1514464845712.0.html
+Timeout: 5 s.
+  com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:66)
+  com.codeborne.selenide.commands.Should.should(Should.java:35)
+  com.codeborne.selenide.commands.Should.execute(Should.java:29)
+  com.codeborne.selenide.commands.Should.execute(Should.java:12)
+  com.codeborne.selenide.commands.Commands.execute(Commands.java:143)
+  com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+  com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+  com.sun.proxy.$Proxy6.shouldHave(Unknown Source)
+  screens.DetailViewer.checkOvereenkomstenDropdown(DetailViewer.java:46)
+  tests.DV0002.DV0002TEST(DV0002.java:39)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.runSuites(TestNG.java:1028)
+  org.testng.TestNG.run(TestNG.java:996)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

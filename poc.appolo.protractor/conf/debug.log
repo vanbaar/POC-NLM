@@ -1,0 +1,12 @@
+[1228/133524.880:ERROR:process_info.cc(350)] VirtualQueryEx: Access is denied. (0x5)
+[1228/133524.882:ERROR:process_info.cc(571)] ReadMemoryInfo failed
+[1228/133524.882:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffe1d385720 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1228/133524.882:WARNING:process_snapshot_win.cc(72)] ReadMemory ExceptionInformation failed
+[1228/133524.882:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1228/133524.882:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1228/134327.201:ERROR:process_info.cc(350)] VirtualQueryEx: Access is denied. (0x5)
+[1228/134327.205:ERROR:process_info.cc(571)] ReadMemoryInfo failed
+[1228/134327.206:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffe1d385720 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1228/134327.206:WARNING:process_snapshot_win.cc(72)] ReadMemory ExceptionInformation failed
+[1228/134327.206:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1228/134327.206:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)

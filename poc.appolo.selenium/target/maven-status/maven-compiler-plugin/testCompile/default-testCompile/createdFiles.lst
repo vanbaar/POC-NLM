@@ -1,0 +1,7 @@
+screens\DetailViewer.class
+screens\ApolloStart.class
+tests\DV0002.class
+screens\Dashboard.class
+screens\Login.class
+utilities\PropertiesLoader.class
+utilities\Algemeen.class

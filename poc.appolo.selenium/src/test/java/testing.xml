@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="ie Test DV0002">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="tests.DV0002"/>
+        </classes>
+    </test>
+    <test name="ie Test LR0001_LR0002">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="tests.LR0001_LR0002"/>
+        </classes>
+    </test>
+
+    <test name="chrome Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.DV0002"/>
+        </classes>
+    </test>
+    <test name="firefox Test">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="tests.DV0002"/>
+        </classes>
+    </test>
+
+
+</suite>
